@@ -1,0 +1,107 @@
+.RCB {
+  background-image: linear-gradient(to bottom, #1e293b, #a4261d);
+  background-size: cover;
+}
+
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #d91c1f);
+  background-size: cover;
+}
+
+.KXP {
+  background-image: linear-gradient(to bottom, #f7db00, #ffffff33);
+  background-size: cover;
+}
+
+.CSK {
+  background-image: linear-gradient(to bottom, #da237b, #13418b);
+  background-size: cover;
+}
+
+.RR {
+  background-image: linear-gradient(to bottom, #f26d22, #4f5db0);
+  background-size: cover;
+}
+
+.MI {
+  background-image: linear-gradient(to bottom, #0f172a, #1e293b);
+  background-size: cover;
+}
+
+.SH {
+  background-image: linear-gradient(to bottom, #4f5db0, #a4261d);
+  background-size: cover;
+}
+
+.DC {
+  background-image: linear-gradient(to bottom, #f26d22, #5755a7);
+  background-size: cover;
+}
+
+.team-math-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+@media (min-width: 568px) {
+  .team-math-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  width: 100%;
+}
+
+.team-img {
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 18px;
+}
+
+@media (min-width: 568px) {
+  .team-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 2px;
+    margin-bottom: 18px;
+  }
+}
+
+.latest-matches {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 800;
+  color: white;
+  font-family: Bree Serif;
+  text-align: left;
+  width: 100%;
+}
+
+.un-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}

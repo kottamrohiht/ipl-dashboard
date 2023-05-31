@@ -1,0 +1,81 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  width: 45%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1e293b;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 568px) {
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    width: 29%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #1e293b;
+    border-radius: 9px;
+    margin-bottom: 30px;
+  }
+}
+
+.competingTeam-Logo {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.competingTeam {
+  color: white;
+  font-size: 13px;
+  font-family: Bree Serif;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.result {
+  color: white;
+  font-size: 10px;
+  font-family: Bree Serif;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.won {
+  color: green;
+  font-size: 15px;
+  font-family: Bree Serif;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.loss {
+  color: red;
+  font-size: 15px;
+  font-family: Bree Serif;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}

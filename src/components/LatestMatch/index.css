@@ -1,0 +1,122 @@
+.latest_match_container {
+  width: 100%;
+  background-color: #1e293b;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 568px) {
+  .latest_match_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #1e293b;
+    border-radius: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.team-Name {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  margin-bottom: 7px;
+  font-weight: 200;
+  color: white;
+  font-family: Bree Serif;
+}
+
+.team-Name1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 19px;
+  margin-bottom: 15px;
+  font-weight: 200;
+  color: white;
+  font-family: Bree Serif;
+}
+
+.team-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+}
+
+.team-name-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+}
+
+@media (min-width: 568px) {
+  .team-name-container {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+    width: 55%;
+  }
+
+  .team-name-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: right;
+  }
+}
+
+.date {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  margin-bottom: 7px;
+  color: white;
+  font-family: Bree Serif;
+}
+
+.venue {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: white;
+  font-family: Bree Serif;
+}
+
+.competingTeamLogo {
+  width: 70px;
+  height: 70px;
+}
+
+@media (min-width: 568px) {
+  .competingTeamLogo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.line {
+  border: 1px solid #475569;
+}
+
+@media (min-width: 568px) {
+  .line {
+    display: none;
+  }
+}
